@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools{
-        maven 'baotg'
+        maven 'maven_3_5_0'
     }
     environment {
         AWS_ACCOUNT_ID="334210602318"
